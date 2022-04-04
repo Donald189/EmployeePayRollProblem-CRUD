@@ -24,7 +24,8 @@ namespace EmployeePayRoll
             employee.City = "Chennai";
             employee.Country = "India";
 
-            repo.AddEmployee(employee);
+            //repo.AddEmployee(employee);
+            repo.GetAllEmployee();
         }
     }
 }
